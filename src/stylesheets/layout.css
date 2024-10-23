@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #2e2e2e;
+  --gray: #787878;
+  --highlight: #ea8478;
+  --footer: #f7f7f7;
+}
